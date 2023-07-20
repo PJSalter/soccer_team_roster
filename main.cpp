@@ -33,7 +33,7 @@ int main()
         cout << "Player " << (i + 1) << " -- Jersey number: " << jerseys.at(i) << ", Rating: " << ratings.at(i) << endl;
     }
 
-    char menuOption;
+    char menuOption = 'x'; // Initialize the menuOption variable
 
     while (menuOption != 'q')
     {
